@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300);
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+p,a,li,blockquote {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+/*COVER*/
+#cover {
+	background-image: url('../images/header_logo.jpg');
+	background-repeat: no-repeat;
+	height: 400px;
+    background-position: center;
+}
+
+a {
+    color: #5DBCD2;
+}
+
+a:hover {
+    color: orange;
+}
+
+.border-botton-section {
+	border-bottom: 8px solid  #5DBCD2;
+}
+
+#video {
+	background-image: url('../images/lyonnette.png');
+	background-repeat: repeat;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+.card {
+    height: 440px;
+}
+
+.container-card {
+	padding: 15px;
+}
